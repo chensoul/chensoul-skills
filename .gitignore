@@ -1,0 +1,39 @@
+# --- Operating system ---
+.DS_Store
+Thumbs.db
+Thumbs.db*
+
+# --- Secrets & local environment ---
+.env
+.env.*
+!.env.example
+
+# --- Python (e.g. keep/scripts) ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+
+# --- Logs ---
+*.log
+
+# --- JavaScript ---
+node_modules/
+
+# --- IDEs ---
+.idea/
+
+# --- This repo: generated Keep sync output (may contain personal data) ---
+keep/scripts/data/
+
+# --- Local databases ---
+*.sqlite3
+.db/
+
+# Allow committing empty dirs that use .gitkeep inside ignored trees
+!.gitkeep
